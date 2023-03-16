@@ -1,0 +1,51 @@
+.body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.title {
+    color: darkcyan;
+    font-family: Impact;
+    text-align: center;
+    font-size: 150px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.text {
+    color: black;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+nav {
+    background: darkcyan;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0
+}
+
+#menu {
+
+    text-align: left;
+    font-size: large;
+    margin-left: 40px;
+}
+
+nav ul li {
+    position: relative;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white
+}

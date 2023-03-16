@@ -1,0 +1,40 @@
+.body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+nav {
+    background: darkcyan;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0
+}
+
+#menu {
+
+    text-align: left;
+    font-size: large;
+    margin-left: 40px;
+}
+
+nav ul li {
+    position: relative;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.text {
+    color: black;
+    font-family: sans-serif;
+}
